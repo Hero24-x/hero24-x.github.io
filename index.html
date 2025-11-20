@@ -1,65 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shibnath Hansda | Cybersecurity Analyst</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hero — CyberSecurity Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#071025;
+      --card:#0e1430;
+      --muted:#9aa4bf;
+      --accent:#7b3cff; /* purple */
+      --accent-2:#00eaff; /* cyan */
+      --glass: rgba(255,255,255,0.04);
+      --radius:18px;
+      --soft-shadow: 0 8px 30px rgba(2,6,23,0.6);
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial; background:linear-gradient(180deg,#031026 0%, #071025 60%); color:#e6eef8; -webkit-font-smoothing:antialiased}
+
+    .wrap{max-width:1100px; margin:40px auto; padding:30px}
+
+    .profile-card{
+      background: linear-gradient(180deg, rgba(123,60,255,0.14), rgba(0,234,255,0.03)), var(--card);
+      border-radius:var(--radius);
+      box-shadow:var(--soft-shadow);
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,0.04);
+    }
+
+    .banner{
+      background: radial-gradient(1200px 300px at 50% 20%, rgba(123,60,255,0.45), rgba(0,234,255,0.06) 40%, transparent 60%), linear-gradient(90deg,#071025,#0c1630);
+      padding:44px 36px 24px;
+      text-align:center;
+    }
+
+    .avatar{
+      width:120px; height:120px; border-radius:999px; margin:-70px auto 8px; border:6px solid rgba(2,6,23,0.6); background:#101426; display:block; object-fit:cover; box-shadow:0 10px 30px rgba(11,14,23,0.6);
+    }
+
+    .name{font-size:28px; font-weight:700; margin:8px 0 4px}
+    .role{display:inline-block; background:linear-gradient(90deg,var(--accent),var(--accent-2)); color:#071025; font-weight:600; padding:6px 12px; border-radius:999px; font-size:13px}
+
+    .meta{display:flex; gap:18px; justify-content:center; align-items:center; margin-top:14px; color:var(--muted); font-size:14px}
+    .meta svg{opacity:0.9}
+
+    .inner{display:grid; grid-template-columns:1fr 360px; gap:28px; padding:30px;}
+
+    .col{background:transparent}
+
+    .panel{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00)); padding:22px; border-radius:12px; border:1px solid rgba(255,255,255,0.02)}
+
+    h3{margin:0 0 12px; color:var(--accent-2)}
+    p.lead{color:var(--muted); line-height:1.6; margin:0}
+
+    .section{margin-bottom:18px}
+    .chips{display:flex; flex-wrap:wrap; gap:10px}
+    .chip{background:var(--glass); padding:8px 12px; border-radius:12px; color:var(--accent-2); font-weight:600; font-size:13px; border:1px solid rgba(255,255,255,0.03)}
+
+    .list-item{display:flex; gap:10px; align-items:flex-start; margin-bottom:12px}
+    .dot{width:10px; height:10px; background:linear-gradient(90deg,var(--accent),var(--accent-2)); border-radius:3px; margin-top:6px}
+    .item-body{color:var(--muted); font-size:14px}
+
+    .divider{height:1px; background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); margin:18px 0}
+
+    .contact{display:flex; flex-direction:column; gap:8px}
+    .small{font-size:13px; color:var(--muted)}
+
+    footer{padding:20px; text-align:center; color:rgba(170,190,220,0.4); font-size:13px}
+
+    /* responsive */
+    @media (max-width:900px){
+      .inner{grid-template-columns:1fr;}
+      .meta{flex-direction:column}
+      .role{font-size:12px}
+      .avatar{width:110px;height:110px;margin-top:-60px}
+    }
+
+  </style>
 </head>
 <body>
+  <div class="wrap">
+    <div class="profile-card">
+      <div class="banner">
+        <!-- profile image uses uploaded file path -->
+        <img class="avatar" src="https://iili.io/f27kbd7.th.png" alt="Hero profile">
+        <div class="name">Hero</div>
+        <div class="role">CyberSecurity Analyst</div>
+        <div class="meta">
+          <div class="small">📧 shibnathhansda2026@gmail.com.com</div>
+          <div class="small">📍Bankura, West Bengal, India </div>
+          <div class="small">🔗 github.com/Hero24-x</div>
+        </div>
+      </div>
 
-    <!-- NAVBAR -->
-    <nav>
-        <h2 class="logo">Shibnath<span>•</span></h2>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#badges">Badges</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-    </nav>
+      <div class="inner">
+        <div class="col">
+          <div class="panel section">
+            <h3>About Me</h3>
+            <p class="lead">I'm a CyberSecurity enthusiast focused on Blue & Red Team operations, vulnerability research, and practical defensive controls. I practice ethical hacking, build labs, and love turning security theory into working protections.</p>
+          </div>
 
-    <!-- HERO SECTION -->
-    <section id="home" class="hero fade">
-        <div class="hero-text">
-            <h1>Cybersecurity Analyst</h1>
-            <p>Securing Systems • Protecting Data • Ethical Hacking</p>
-            <a href="#badges" class="btn">View Badges</a>
+          <div class="panel section">
+            <h3>Experience</h3>
+            <div class="list-item">
+              <div class="dot"></div>
+              <div class="item-body"><strong>Junior Cybersecurity Analyst</strong> — Conducted vulnerability assessments and triaged alerts using open-source tooling. Built simple detection rules and improved incident response playbooks.</div>
+            </div>
+            <div class="list-item">
+              <div class="dot"></div>
+              <div class="item-body"><strong>Bug Bounty & Labs</strong> — Web app pentesting practice: XSS, SQLi, auth flaws, and secure configuration hardening.</div>
+            </div>
+          </div>
+
+          <div class="panel section">
+            <h3>Education</h3>
+            <div class="list-item">
+              <div class="dot"></div>
+              <div class="item-body">Self‑taught + online certs (e.g., IBM/Coursera) — Continuous learning in network security and ethical hacking.</div>
+            </div>
+          </div>
+
         </div>
 
-        <img src="assets/profile.jpg" class="profile-img" alt="">
-    </section>
+        <aside class="col">
+          <div class="panel section">
+            <h3>Skills & Tools</h3>
+            <div class="chips">
+              <span class="chip">Kali Linux</span>
+              <span class="chip">Nmap</span>
+              <span class="chip">Burp Suite</span>
+              <span class="chip">Wireshark</span>
+              <span class="chip">Python</span>
+              <span class="chip">SQLi / Pentesting</span>
+              <span class="chip">SIEM basics</span>
+              <span class="chip">Docker</span>
+            </div>
+            <div class="divider"></div>
+            <h3>Contact</h3>
+            <div class="contact">
+              <div class="small">Email: hero@example.com</div>
+              <div class="small">GitHub: github.com/yourprofile</div>
+              <div class="small">LinkedIn: linkedin.com/in/yourprofile</div>
+            </div>
+          </div>
 
-    <!-- BADGES SECTION -->
-    <section id="badges" class="badges fade">
-        <h2>Badges & Certificates</h2>
+          <div class="panel section">
+            <h3>Projects</h3>
+            <div class="list-item"><div class="dot"></div><div class="item-body">Web App Vulnerability Scanner — automated scans & reports.</div></div>
+            <div class="list-item"><div class="dot"></div><div class="item-body">Simple SIEM rules for detecting suspicious logins.</div></div>
+            <div class="list-item"><div class="dot"></div><div class="item-body">Packet analysis labs using Wireshark and tshark.</div></div>
+          </div>
 
-        <div class="badge-grid">
-            <img src="assets/badge1.png">
-            <img src="assets/badge2.png">
-            <img src="assets/badge3.png">
-            <img src="assets/badge4.png">
+        </aside>
+      </div>
 
-            <img src="assets/badge5.png">
-            <img src="assets/badge6.png">
-            <img src="assets/badge7.png">
-            <img src="assets/badge8.png">
+    </div>
 
-            <img src="assets/cert1.png">
-            <img src="assets/cert2.png">
-            <img src="assets/placeholder.png">
-            <img src="assets/placeholder.png">
-        </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section id="about" class="about fade">
-        <h2>About Me</h2>
-        <p>
-            I'm a Cybersecurity Analyst passionate about ethical hacking, 
-            threat analysis, digital forensics, and improving system security.
-        </p>
-    </section>
-
-    <script src="script.js"></script>
+    <footer>© 2025 Hero — CyberSecurity Analyst • Designed with dark‑neon aesthetics</footer>
+  </div>
 </body>
 </html>
