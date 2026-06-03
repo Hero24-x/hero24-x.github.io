@@ -1,66 +1,50 @@
-# hero24-x.github.io
+# Bahalabs
 
-# Personal Portfolio – Shibnath Hansda (Hero24-x)
+**Building technology inspired by culture, language, and innovation.**
 
-This is my personal portfolio website showcasing my work, skills, badges, and certificates as a **Cybersecurity Analyst**.  
-The site highlights my experience in ethical hacking, security analysis, and tech projects.
+## About
 
-🚀 Live Website: **https://hero24-x.github.io**
+Bahalabs is an independent technology initiative focused on software development, programming languages, open-source tools, cybersecurity research, and digital innovation.
 
----
+Our goal is to create modern technology while preserving linguistic and cultural identity through software.
 
-## 🔹 About
-This portfolio includes:
-- My introduction & role
-- Cybersecurity skills
-- Badges & certificates (4×3 grid layout)
-- Clean, aesthetic UI with purple + neon cyan theme
-- Smooth animations & fade-in effects
+## Projects
 
----
+### OlchikiLang
 
-## 🔹 Tech Stack
-- **HTML5** – Structure  
-- **CSS3** – Styling (Aesthetic tech theme)  
-- **JavaScript** – Animations & Interactions  
-- **GitHub Pages** – Hosting
-  
----
+A programming language designed around the Ol Chiki script.
 
-## 🔹 Features
-✔ Aesthetic cyber-tech theme  
-✔ Smooth fade-in animations  
-✔ Responsive layout  
-✔ Hover effects on badges  
-✔ Clean navigation  
-✔ Minimal and modern UI  
+Features:
 
----
+* Native Ol Chiki syntax
+* Ol Chiki numerals support
+* Functions
+* Variables
+* Arithmetic operations
+* Conditional statements
+* Loops
+* Pure Ol Chiki programming experience
 
-## 🔹 How to Edit
-You can update:
-- **profile photo** → `/assets/profile.jpg`
-- **badges/certificates** → `/assets/`
-- Text content inside → `index.html`
-- Colors/theme → `style.css`
+## Vision
 
----
+We believe technology should be accessible in every language.
 
-## 🔹 How to Host
-Hosted using **GitHub Pages**.
+Bahalabs aims to build tools that empower communities to learn, create, and innovate using their own linguistic identity.
 
-1. Create repo named:  
-   `hero24-x.github.io`
-2. Upload all files  
-3. DONE — Website automatically goes live
+## Open Source
 
----
+Most Bahalabs projects are developed openly and community contributions are welcome.
 
-## 🔹 Author
-**Shibnath Hansda**  
-Cybersecurity Analyst  
-GitHub: **@Hero24-x**
+## Founder
 
----
+**Shibnath Hansda**
 
-## ⭐ Thanks for visiting my portfolio!
+Founder of Bahalabs and creator of OlchikiLang.
+
+## Website
+
+Coming Soon
+
+## License
+
+MIT License
