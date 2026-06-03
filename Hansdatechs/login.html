@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login | Baha Labs</title>
+<link rel="stylesheet" href="css/auth.css">
+</head>
+
+<body class="auth-body">
+
+<div class="auth-box">
+
+    <h1>Login</h1>
+    <p>Welcome back to Baha Labs</p>
+
+    <input type="text" placeholder="Username" id="loginUser">
+    <input type="password" placeholder="Password" id="loginPass">
+
+    <button onclick="login()">Login</button>
+
+    <p class="switch">
+        Don't have account?
+        <a href="signup.html">Sign Up</a>
+    </p>
+
+</div>
+
+<script>
+function login(){
+    fetch("http://localhost:3000/login", {
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body: JSON.stringify({
+            username: document.getElementById("loginUser").value,
+            password: document.getElementById("loginPass").value
+        })
+    })
+    .then(res => res.json())
+    .then(data => alert(data.message));
+}
+</script>
+
+
+</body>
+</html>

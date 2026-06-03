@@ -1,0 +1,79 @@
+/* BACKGROUND */
+.auth-body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+        radial-gradient(circle at top,
+        rgba(0,255,255,0.2),
+        #0a0a0a 60%);
+    font-family:Arial;
+    color:white;
+}
+
+/* BOX */
+.auth-box{
+    width:320px;
+    padding:30px;
+
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(0,255,255,0.2);
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 0 30px rgba(0,255,255,0.2);
+}
+
+/* INPUT */
+.auth-box input{
+    width:90%;
+    padding:12px;
+    margin:10px 0;
+
+    border:none;
+    outline:none;
+
+    border-radius:10px;
+}
+
+/* BUTTON */
+.auth-box button{
+    width:100%;
+    padding:12px;
+
+    margin-top:10px;
+
+    background:#ff8f50;
+    color:black;
+
+    border:none;
+    border-radius:10px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.auth-box button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 20px #ff8f50;
+}
+
+/* LINK */
+.switch{
+    margin-top:15px;
+    font-size:14px;
+}
+
+.switch a{
+    color:#ff8f50;
+    text-decoration:none;
+}
