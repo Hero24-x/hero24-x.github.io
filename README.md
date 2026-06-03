@@ -1,50 +1,66 @@
-# Bahalabs
+# BAHALABS
 
-**Building technology inspired by culture, language, and innovation.**
+### Technology • Language • Innovation
 
-## About
+Bahalabs is an independent technology laboratory dedicated to building open-source software, programming languages, developer tools, cybersecurity solutions, and digital infrastructure.
 
-Bahalabs is an independent technology initiative focused on software development, programming languages, open-source tools, cybersecurity research, and digital innovation.
+Founded by **Shibnath Hansda**, Bahalabs focuses on creating technology that connects local languages with global innovation.
 
-Our goal is to create modern technology while preserving linguistic and cultural identity through software.
+---
 
-## Projects
+## Our Mission
+
+To empower people through technology while preserving linguistic identity and cultural heritage.
+
+---
+
+## Flagship Projects
 
 ### OlchikiLang
 
-A programming language designed around the Ol Chiki script.
+A programming language built specifically for the Ol Chiki script.
 
 Features:
 
-* Native Ol Chiki syntax
-* Ol Chiki numerals support
-* Functions
-* Variables
-* Arithmetic operations
-* Conditional statements
-* Loops
-* Pure Ol Chiki programming experience
+* Pure Ol Chiki syntax
+* Native Ol Chiki numerals
+* Variables and expressions
+* Functions and returns
+* Conditions and loops
+* Multi-line execution
+* Interactive REPL
+* Open-source ecosystem
 
-## Vision
+---
 
-We believe technology should be accessible in every language.
+## Research Areas
 
-Bahalabs aims to build tools that empower communities to learn, create, and innovate using their own linguistic identity.
+* Programming Languages
+* Compiler Design
+* Cybersecurity
+* Open Source Software
+* Artificial Intelligence
+* Digital Language Preservation
 
-## Open Source
+---
 
-Most Bahalabs projects are developed openly and community contributions are welcome.
+## Why Bahalabs?
+
+We believe technology should not be limited by language.
+
+Every community deserves tools, software, and programming environments built in its own script.
+
+---
 
 ## Founder
 
-**Shibnath Hansda**
+Shibnath Hansda
 
-Founder of Bahalabs and creator of OlchikiLang.
+Creator of OlchikiLang
 
-## Website
+---
 
-Coming Soon
+## Join the Journey
 
-## License
+Building the future, one language at a time.
 
-MIT License
