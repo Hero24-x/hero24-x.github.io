@@ -1,165 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hero — CyberSecurity Analyst</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg:#071025;
-      --card:#0e1430;
-      --muted:#9aa4bf;
-      --accent:#7b3cff; /* purple */
-      --accent-2:#00eaff; /* cyan */
-      --glass: rgba(255,255,255,0.04);
-      --radius:18px;
-      --soft-shadow: 0 8px 30px rgba(2,6,23,0.6);
-    }
-    *{box-sizing:border-box}
-    body{margin:0; font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial; background:linear-gradient(180deg,#031026 0%, #071025 60%); color:#e6eef8; -webkit-font-smoothing:antialiased}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baha Labs</title>
 
-    .wrap{max-width:1100px; margin:40px auto; padding:30px}
-
-    .profile-card{
-      background: linear-gradient(180deg, rgba(123,60,255,0.14), rgba(0,234,255,0.03)), var(--card);
-      border-radius:var(--radius);
-      box-shadow:var(--soft-shadow);
-      overflow:hidden;
-      border:1px solid rgba(255,255,255,0.04);
-    }
-
-    .banner{
-      background: radial-gradient(1200px 300px at 50% 20%, rgba(123,60,255,0.45), rgba(0,234,255,0.06) 40%, transparent 60%), linear-gradient(90deg,#071025,#0c1630);
-      padding:44px 36px 24px;
-      text-align:center;
-    }
-
-    .avatar{
-      width:120px; height:120px; border-radius:999px; margin:-70px auto 8px; border:6px solid rgba(2,6,23,0.6); background:#101426; display:block; object-fit:cover; box-shadow:0 10px 30px rgba(11,14,23,0.6);
-    }
-
-    .name{font-size:28px; font-weight:700; margin:8px 0 4px}
-    .role{display:inline-block; background:linear-gradient(90deg,var(--accent),var(--accent-2)); color:#071025; font-weight:600; padding:6px 12px; border-radius:999px; font-size:13px}
-
-    .meta{display:flex; gap:18px; justify-content:center; align-items:center; margin-top:14px; color:var(--muted); font-size:14px}
-    .meta svg{opacity:0.9}
-
-    .inner{display:grid; grid-template-columns:1fr 360px; gap:28px; padding:30px;}
-
-    .col{background:transparent}
-
-    .panel{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00)); padding:22px; border-radius:12px; border:1px solid rgba(255,255,255,0.02)}
-
-    h3{margin:0 0 12px; color:var(--accent-2)}
-    p.lead{color:var(--muted); line-height:1.6; margin:0}
-
-    .section{margin-bottom:18px}
-    .chips{display:flex; flex-wrap:wrap; gap:10px}
-    .chip{background:var(--glass); padding:8px 12px; border-radius:12px; color:var(--accent-2); font-weight:600; font-size:13px; border:1px solid rgba(255,255,255,0.03)}
-
-    .list-item{display:flex; gap:10px; align-items:flex-start; margin-bottom:12px}
-    .dot{width:10px; height:10px; background:linear-gradient(90deg,var(--accent),var(--accent-2)); border-radius:3px; margin-top:6px}
-    .item-body{color:var(--muted); font-size:14px}
-
-    .divider{height:1px; background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); margin:18px 0}
-
-    .contact{display:flex; flex-direction:column; gap:8px}
-    .small{font-size:13px; color:var(--muted)}
-
-    footer{padding:20px; text-align:center; color:rgba(170,190,220,0.4); font-size:13px}
-
-    /* responsive */
-    @media (max-width:900px){
-      .inner{grid-template-columns:1fr;}
-      .meta{flex-direction:column}
-      .role{font-size:12px}
-      .avatar{width:110px;height:110px;margin-top:-60px}
-    }
-
-  </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="wrap">
-    <div class="profile-card">
-      <div class="banner">
-        <!-- profile image uses uploaded file path -->
-        <img class="avatar" src="https://iili.io/f27kbd7.th.png" alt="Hero profile">
-        <div class="name">Shibnath Hansda</div>
-        <div class="role">CyberSecurity Analyst</div>
-        <div class="meta">
-          <div class="small">
-            <a href="mailto:shibnathhansda2026@gmail.com">📧shibnathhansda2026@gmail.com </a> </div>
-          <div class="small">📍Bankura, West Bengal, India </div>
-          <div class="small">
-            <a href="https://github.com/Hero24-x" target="_blank> 🔗 github.com/Hero24-x </a> </div>
+
+<nav>
+
+    <div class="logo">
+        BAHA LABS
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="docs.html">Documentation</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="login-btn" href="login.html">Login</a></li>
+        <li><a class="signup-btn" href="signup.html">Sign Up</a></li>
+    </ul>
+
+</nav>
+
+<section class="hero">
+
+    <div class="left">
+
+        <h1>
+            BUILDING THE FUTURE OF
+            TECHNOLOGY
+        </h1>
+
+        <p>
+            Software Development, Cyber Security,
+            Open Source Projects, OlChikiLang,
+            and Innovation for the next generation.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button onclick="showMessage()">
+                Explore
+            </button>
+
+            <button class="secondary">
+                Learn More
+            </button>
+
         </div>
-      </div>
-
-      <div class="inner">
-        <div class="col">
-          <div class="panel section">
-            <h3>About Me</h3>
-            <p class="lead">I'm a CyberSecurity enthusiast focused on Blue & Red Team operations, vulnerability research, and practical defensive controls. I practice ethical hacking, build labs, and love turning security theory into working protections.</p>
-          </div>
-
-          <div class="panel section">
-            <h3>Experience</h3>
-            <div class="list-item">
-              <div class="dot"></div>
-              <div class="item-body"><strong>Junior Cybersecurity Analyst</strong> — Conducted vulnerability assessments and triaged alerts using open-source tooling. Built simple detection rules and improved incident response playbooks.</div>
-            </div>
-            <div class="list-item">
-              <div class="dot"></div>
-              <div class="item-body"><strong>Bug Bounty & Labs</strong> — Web app pentesting practice: XSS, SQLi, auth flaws, and secure configuration hardening.</div>
-            </div>
-          </div>
-
-          <div class="panel section">
-            <h3>Education</h3>
-            <div class="list-item">
-              <div class="dot"></div>
-              <div class="item-body">Self‑taught + online certs (e.g., IBM/Coursera) — Continuous learning in network security and ethical hacking.</div>
-            </div>
-          </div>
-
-        </div>
-
-        <aside class="col">
-          <div class="panel section">
-            <h3>Skills & Tools</h3>
-            <div class="chips">
-              <span class="chip">Kali Linux</span>
-              <span class="chip">Nmap</span>
-              <span class="chip">Burp Suite</span>
-              <span class="chip">Wireshark</span>
-              <span class="chip">Python</span>
-              <span class="chip">SQLi / Pentesting</span>
-              <span class="chip">SIEM basics</span>
-              <span class="chip">Docker</span>
-            </div>
-            <div class="divider"></div>
-            <h3>Contact</h3>
-            <div class="contact">
-              <div class="small">Email: hero@example.com</div>
-              <div class="small">GitHub: github.com/yourprofile</div>
-              <div class="small">LinkedIn: linkedin.com/in/yourprofile</div>
-            </div>
-          </div>
-
-          <div class="panel section">
-            <h3>Projects</h3>
-            <div class="list-item"><div class="dot"></div><div class="item-body">Web App Vulnerability Scanner — automated scans & reports.</div></div>
-            <div class="list-item"><div class="dot"></div><div class="item-body">Simple SIEM rules for detecting suspicious logins.</div></div>
-            <div class="list-item"><div class="dot"></div><div class="item-body">Packet analysis labs using Wireshark and tshark.</div></div>
-          </div>
-
-        </aside>
-      </div>
 
     </div>
 
-    <footer>© 2025 Hero — CyberSecurity Analyst • Designed with dark‑neon aesthetics</footer>
-  </div>
+    <div class="right">
+
+        <img src="assets/hero.png" alt="Hero">
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>10+</h2>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>500+</h2>
+        <p>Community Members</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>24/7</h2>
+        <p>Innovation</p>
+    </div>
+
+</section>
+
+<section class="cards">
+
+    <div class="card">
+        <h2>OlChikiLang</h2>
+        <p>
+            Programming language designed
+            for Santali developers.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Cyber Security</h2>
+        <p>
+            Ethical hacking, security research
+            and digital protection.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Open Source</h2>
+        <p>
+            Community driven tools,
+            projects and innovation.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Baha Labs. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
